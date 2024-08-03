@@ -5,7 +5,7 @@ getgenv().AD = {
 }
 
 if getgenv().AD.Load.Anime == "true" then
-    local scriptContent = game:HttpGet("")
+    local scriptContent = game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon_AD.lua")
     loadstring(scriptContent)()
 end
 
