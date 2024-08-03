@@ -1,8 +1,18 @@
+getgenv().AD = {
+  Preload = {
+     ["AD"] - "", 
+  }
+}
+
+if getgenv().AD.Prelode.AD == "AD" then
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon_AD.lua"))()
+end
+  
 local PlaceId = game.PlaceId
 local GameId = game.gameId
 
 if (PlaceId == 17764698696) or (PlaceId == 17017769292) or (PlaceId == 17018663967) then
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon_AD.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon.lua"))()
 end
 if (PlaceId == 3351674303) then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon.lua"))()
