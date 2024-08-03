@@ -6,7 +6,7 @@ getgenv().AD = {
 
 if getgenv().AD.Load.Anime == "true" then
   wait(3)
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon_AD.lua"))()
+   loadstring(game:HttpGet(""))()
 end
 
 local PlaceId = game.PlaceId
