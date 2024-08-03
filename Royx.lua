@@ -1,5 +1,4 @@
 _G.ConfigMain = {
-    -- V ให้เลือกเปิดได้ 1 อันถ้าเปิดหลายตัวพร้อมกันจะทำให้สคริปบัค ****
     ["Auto Farm Level"] = true,
     ["Double Quest"] = false,
     ["Farm Boss Quest Too"] = false,
@@ -13,7 +12,7 @@ _G.ConfigMain = {
     ["Select Lock Beli"] = 0,
     ["Start Lock Beli"] = false,
     ["Select Redeem Level"] = 150,
-    ["Auto Redeem Code x2"] = true,
+    ["Auto Redeem Code x2"] = false,
     ["Select Material"] = "",
     ["Auto Farm Material"] = false,
     ["Auto Farm Devil Fruit Mastery"] = false,
@@ -40,7 +39,7 @@ _G.ConfigMain = {
     ["Auto Rejoin"] = true,
     ["Auto Haki"] = true,
     ["Auto Observation Haki"] = false,
-    ["Auto Accessory"] = false,
+    ["Auto Accessory"] = true,
 
     -- Auto Stats
     ["Auto Stat kaitan"] = false,
@@ -58,13 +57,13 @@ _G.ConfigMain = {
     ["Auto Third World"] = true,
 
     -- New Fighting Styles & etc
-    ["Auto Godhuman"] = true,
-    ["Auto Superhuman"] = true,
-    ["Auto Death Step"] = true,
-    ["Auto Dragon Talon"] = true,
-    ["Auto Electric Claw"] = true,
-    ["Auto Farm All Boss"] = true,
-    ["Auto Buy Legendary Sword"] = true,
+    ["Auto Godhuman"] = false,
+    ["Auto Superhuman"] = false,
+    ["Auto Death Step"] = false,
+    ["Auto Dragon Talon"] = false,
+    ["Auto Electric Claw"] = false,
+    ["Auto Farm All Boss"] = false,
+    ["Auto Buy Legendary Sword"] = false,
     ["Auto Buy Legendary Sword Hop"] = false,
     ["Select Legendary Sword"] = {}, -- "Shisui","Wando","Saddi",
     ["Lock Legendary Sword To Buy"] = false,
