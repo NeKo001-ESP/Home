@@ -53,7 +53,7 @@ _G.ConfigMain = {
     ["Auto New World"] = true,
 
     -- New World
-    ["Auto Factory"] = true,
+    ["Auto Factory"] = false,
     ["Auto Third World"] = true,
 
     -- New Fighting Styles & etc
@@ -157,9 +157,9 @@ _G.ConfigMain = {
     ["Auto Raids Hop"] = false,
 
     -- Devil Fruit Zone
-    ["Auto Store Fruits"] = false,
+    ["Auto Store Fruits"] = true,
     ["Bring Devil Fruit"] = false,
-    ["Auto Random Devil Fruit"] = false,
+    ["Auto Random Devil Fruit"] = true,
 
     -- Players Zone 
     ["Auto Farm Bounty"] = false,
@@ -171,7 +171,7 @@ _G.ConfigMain = {
 
     -- Setting
 
-    ["Auto Save Config"] = false,
+    ["Auto Save Config"] = true,
     ["Lock FPS Now"] = false,
     ["Select Lock FPS"] = 25,
 }
