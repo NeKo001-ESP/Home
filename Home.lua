@@ -1,14 +1,3 @@
-getgenv().AD = {
-    Load = {
-        ["Anime"] = "",
-    }
-}
-
-if getgenv().AD.Load.Anime == "true" then
-    local scriptContent = game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon_AD.lua")
-    loadstring(scriptContent)()
-end
-
 local PlaceId = game.PlaceId
 local GameId = game.gameId
 
