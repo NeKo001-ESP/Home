@@ -1,9 +1,9 @@
-local PlaceId = game.PlaceId
-local GameId = game.gameId
+local Pid = game.PlaceId
+local Gid = game.gameId
 
-if (PlaceId == 17764698696) or (PlaceId == 17017769292) then
+if (Gid == 17764698696) or (Gid == 17017769292) then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon_AD.lua"))()
 end
-if (GameId == 3351674303) then
+if (Gid == 3351674303) then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon.lua"))()
 end  
