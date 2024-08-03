@@ -1,11 +1,10 @@
 getgenv().AD = {
   Load = {
-     ["Anime"] = "true", 
+     ["Anime"] = "", 
   }
 }
 
 if getgenv().AD.Load.Anime == "true" then
-  wait(3)
    loadstring(game:HttpGet(""))()
 end
 
