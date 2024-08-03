@@ -1,10 +1,10 @@
 getgenv().AD = {
   Preload = {
-     ["AD"] - "", 
+     ["AD"] - "true", 
   }
 }
 
-if getgenv().AD.Prelode.AD == "AD" then
+if getgenv().AD.Prelode.AD == "true" then
    loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon_AD.lua"))()
 end
   
