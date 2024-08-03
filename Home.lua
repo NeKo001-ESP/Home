@@ -1,6 +1,6 @@
 getgenv().AD = {
     Load = {
-        ["Anime"] = "true",
+        ["Anime"] = "",
     }
 }
 
