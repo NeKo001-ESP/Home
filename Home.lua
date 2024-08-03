@@ -7,6 +7,6 @@ end
 if (PlaceId == 3351674303) then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon.lua"))()
 end
-if (GameId == 2753915549) or (GameId == 4442272183)
+if (GameId == 2753915549) or (GameId == 4442272183) than
   loadstring(game:HttpGet("https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Royx.lua"))()
 end
