@@ -1,12 +1,8 @@
-local GameId = game.GameId
+local PlaceId = game.PlaceId
+local GameId = game.gameId
 
---// Tables
-
-local Games = {
-    { name = "Anime Defenders", gameid = 17017769292, link = "https://raw.githubusercontent.com/NeKo001-ESP/Home/blob/main/Xenon.lua", AD = "https://raw.githubusercontent.com/NeKo001-ESP/Home/blob/main/Xenon_AD.lua" },
-    { name = "Driving Empire", gameid = 3351674303, link = "https://raw.githubusercontent.com/NeKo001-ESP/Home/blob/main/Xenon.lua" },
-    { name = "Blox Fruits", gameid = 2753915549, link = "https://raw.githubusercontent.com/NeKo001-ESP/Home/blob/main/Xenon.lua" },
-
-function Fetch(URL)
-    return game:HttpGet(tostring(URL))
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon_AD.lua")()
+elseif GameId == 17017769292 then
+    loadstring(game:HttpGet"https://raw.githubusercontent.com/NeKo001-ESP/Home/main/Xenon.lua")()
+elseif GameId == 2753915549 then
 end
