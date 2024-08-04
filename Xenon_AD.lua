@@ -1,12 +1,12 @@
 getgenv().Configuration = {
   ['Enabled'] = true,
-  ['Enabled Challenge'] = false,
+  ['Enabled Challenge'] = true,
   ['PC Name'] = 'DDC-1',
   ['Delay'] = 0,
   ['Leave Delay'] = 0,
   ['EquipBest'] = true,
   ['Leave At Wave'] = 31,
-  ['Leave Method'] = 1, -- 1 = Sell,  2 = Leave
+  ['Leave Method'] = 2, -- 1 = Sell,  2 = Leave
   ['TradingMode'] = false,
 };
 getgenv().key = '205534130058'
