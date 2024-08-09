@@ -1,5 +1,5 @@
 getgenv().Configuration = {
-  ['Enabled'] = false,
+  ['Enabled'] = true,
   ['Enabled Challenge'] = true,
   ['PC Name'] = 'DDC-1',
   ['Delay'] = 0,
