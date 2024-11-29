@@ -1,7 +1,7 @@
 getgenv().Configuration = {
     Enabled = true,
     ZoneFish = 'The Depths', -- The Depths // Forsaken Pond // Snowcap // Vertigo
-    EquipRod = 'Auto', --  Auto // Aurora Rod // Trident Rod // Kings Rod // Sunken Rod // Rapid Rod // etc.
+    EquipRod = 'Rapid Rod', --  Auto // Aurora Rod // Trident Rod // Kings Rod // Sunken Rod // Rapid Rod // etc.
     Rods = {
         ['Trident Rod'] = false,
         ['Aurora Rod'] = true,
