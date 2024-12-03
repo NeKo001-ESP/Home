@@ -13,7 +13,7 @@ getgenv().Configuration = {
     },
     AutoSell = {
         ['Enabled'] = true,
-        ['Sell every'] = 3600, -- seconds
+        ['Sell every'] = 200, -- seconds
         ['Mythical'] = true,
         ['Legendary'] = true,
         ['Enchant Rellcs'] = false,
