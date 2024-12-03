@@ -1,7 +1,7 @@
 getgenv().Configuration = {
     Enabled = true,
     ZoneFish = 'The Depths', -- The Depths // Forsaken Pond // Snowcap // Vertigo
-    EquipRod = 'Rapid Rod', --  Auto // Aurora Rod // Trident Rod // Kings Rod // Sunken Rod // Rapid Rod // etc.
+    EquipRod = 'Auto', --  Auto // Aurora Rod // Trident Rod // Kings Rod // Sunken Rod // Rapid Rod // etc.
     Rods = {
         ['Trident Rod'] = true,
         ['Aurora Rod'] = true,
@@ -13,7 +13,7 @@ getgenv().Configuration = {
     },
     AutoSell = {
         ['Enabled'] = true,
-        ['Sell every'] = 100, -- seconds
+        ['Sell every'] = 200, -- seconds
         ['Mythical'] = true,
         ['Legendary'] = true,
         ['Enchant Rellcs'] = false,
