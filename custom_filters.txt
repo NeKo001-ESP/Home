@@ -1,5 +1,7 @@
 ! Oct 3, 2025 https://www.go-manga.com
-www.go-manga.com###sticky-bottom2
 www.go-manga.com###sticky-bottom3
-www.go-manga.com##div.center_gomanga3:nth-of-type(33)
+www.go-manga.com###sticky-bottom2
 www.go-manga.com##div.center_gomanga3
+www.go-manga.com##.sticky-close
+www.go-manga.com##div.center_gomanga
+
